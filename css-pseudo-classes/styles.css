@@ -13,6 +13,6 @@ input {
   border: 0.5px solid white;
 }
 
-.gray {
+table.gray {
   background-color: lightgray;
 }
