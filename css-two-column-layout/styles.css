@@ -1,0 +1,93 @@
+body {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4vh;
+  font-weight: lighter;
+}
+
+.row {
+  display: flex;
+  margin-block-end: 20px;
+  flex-wrap: wrap;
+}
+
+.paraheader {
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: rgb(143 143 143);
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+p {
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: rgb(143 143 143);
+}
+
+h3 {
+  word-wrap: normal;
+  position: static;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column-full {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.column-half {
+  flex-basis: calc(120%);
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 5);
+}
+
+.column-end {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.button {
+  text-align: center;
+  position: relative;
+  margin-left: 27em;
+  border-color: rgb(210 76 69);
+  padding: 8px 40px;
+  color: rgb(210 76 69);
+  text-transform: uppercase;
+  font-weight: 100;
+  background-color: white;
+}
