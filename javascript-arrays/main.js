@@ -14,3 +14,11 @@ var lastIndex = numberOfStudents - 1;
 var lastStudent = students[lastIndex];
 console.log('The last student in my class is named ' + lastStudent + '.');
 console.log(students);
+var students = ['Jake', 'Jessica', 'Autumn', 'Julian'];
+var numberOfStudents = students.length;
+console.log('There are ' + numberOfStudents + ' students in this class');
+var lastIndex = numberOfStudents - 1;
+var lastStudent = students[lastIndex];
+console.log('The last student in my class is named ' + lastStudent + '.');
+console.log(students);
+
