@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+
+form {
+  width: 800px;
+  margin: auto;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(255 255 255);
+  width: auto;
+  margin: auto;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+}
+
+/* .fieldset {
+  width: 800px;
+  margin: auto;
+  justify-content: center; */
+
+h3 {
+  color: #ec5f59;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+::placeholder {
+  padding-top: 7em;
+  padding-left: 1em;
+  padding-bottom: 5em;
+  font-weight: lighter;
+}
+
+.input {
+  border-radius: 10px;
+  border-color: rgb(243 243 243);
+  padding-right: 27em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: larger;
+  color: rgb(177 177 177);
+  width: 100%;
+}
+
+#button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(236 94 87);
+  border-radius: 18px;
+  text-transform: uppercase;
+  color: white;
+  text-align: right;
+  width: 20;
+}
+
+#hiring {
+  color: rgb(98 98 98);
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* select {
+  padding-top: 1em;
+  padding-bottom: 1em; */
+
+#engineer {
+  padding: 20em;
+}
