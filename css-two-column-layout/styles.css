@@ -2,14 +2,15 @@ body {
   font-family: Karla, sans-serif;
   font-style: normal;
   font-weight: 700;
-  margin: 0;
-  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
-  width: 800px;
-  margin: 50px auto;
-  box-sizing: border-box;
+  width: 1000px;
+  margin: auto;
 }
 
 footer {
@@ -20,14 +21,15 @@ footer {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 4vh;
+  font-size: 4.5em;
   font-weight: lighter;
 }
 
 .row {
+  max-width: 100%;
   display: flex;
-  margin-block-end: 20px;
-  flex-wrap: wrap;
+  margin: auto;
+  flex-flow: wrap;
 }
 
 .paraheader {
@@ -38,8 +40,19 @@ h1 {
 }
 
 section {
-  display: flex;
   width: 100%;
+}
+
+.col-five {
+  flex-basis: 50%;
+}
+
+.col-one {
+  flex-basis: 10%;
+}
+
+.col-four {
+  flex-basis: 40%;
 }
 
 p {
@@ -50,27 +63,28 @@ p {
 
 h3 {
   word-wrap: normal;
-  position: static;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .column-full {
   width: 100%;
   text-align: center;
-  padding-bottom: 4em;
 }
 
 .column-half {
-  flex-basis: calc(120%);
+  flex-basis: 35%;
+  flex-direction: row;
 }
 
 .column-one-third {
-  flex-basis: calc(100% / 5);
+  flex-basis: 15%;
+  flex-direction: row;
+}
+
+.column-full-two {
+  display: flex;
+  max-width: 100%;
 }
 
 .column-end {
