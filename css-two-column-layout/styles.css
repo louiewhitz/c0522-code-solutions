@@ -28,8 +28,6 @@ h1 {
 .row {
   max-width: 100%;
   display: flex;
-  margin: auto;
-  flex-flow: wrap;
 }
 
 .paraheader {
@@ -39,20 +37,21 @@ h1 {
   color: rgb(143 143 143);
 }
 
-section {
+.main {
   width: 100%;
 }
 
 .col-five {
   flex-basis: 50%;
+  flex-direction: row;
 }
 
 .col-one {
-  flex-basis: 10%;
+  flex-basis: 30%;
 }
 
 .col-four {
-  flex-basis: 40%;
+  flex-basis: 70%;
 }
 
 p {
@@ -72,6 +71,7 @@ h3 {
   text-align: center;
 }
 
+/*
 .column-half {
   flex-basis: 35%;
   flex-direction: row;
@@ -92,7 +92,7 @@ h3 {
   display: flex;
   text-align: center;
   justify-content: center;
-}
+} */
 
 .button {
   text-align: center;
