@@ -13,6 +13,6 @@ input {
   border: 0.5px solid white;
 }
 
-table.gray {
+.gray:nth-of-type(odd) {
   background-color: lightgray;
 }
