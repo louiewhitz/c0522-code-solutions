@@ -38,16 +38,19 @@ var orderHistory = [{
 
 {
   deliveryDate: 'July 5th',
-  items: [[{
+  items: [{
     name: 'GameCube',
     type: 'controller',
     orderPlaced: 'July 3rd',
     edition: 'Nintendo Switch',
     totalCost: 94.95,
     orderNumber: 113 - 2883177 - 264826
-  }],
+  }]
+},
 
-  [{
+{
+  deliveryDate: 'July 5th',
+  items: [{
     name: 'The Art of Sql',
     type: 'book',
     author: 'Stephane Faroult',
@@ -55,8 +58,6 @@ var orderHistory = [{
     orderNumber: 113 - 2883177 - 264826,
     orderPlaced: 'July 3rd'
 
-  }]]
-}
-
-];
+  }]
+}];
 console.log(orderHistory);
