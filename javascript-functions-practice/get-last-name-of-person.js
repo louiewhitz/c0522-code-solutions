@@ -1,6 +1,6 @@
-/* exported getLastNameLength */
+/* exported getLastNameOfPerson */
 
-function getLastNameLength(person) {
+function getLastNameOfPerson(person) {
   var lastNameOfPerson = person.lastName;
   return lastNameOfPerson;
 }

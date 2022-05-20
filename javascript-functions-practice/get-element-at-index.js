@@ -1,6 +1,5 @@
-/* getElementAtIndex */
-
-var getElementAtIndex(array, index) {
-  var elementIndex = array.element[index];
+/* exported getElementAtIndex */
+function getElementAtIndex(array, index) {
+  var elementIndex = array[index];
   return elementIndex;
 }
