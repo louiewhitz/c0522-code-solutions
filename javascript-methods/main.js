@@ -1,18 +1,19 @@
-var quiz = 60;
-var final = 90;
-var midterm = 100;
-var maximumResult = Math.max((quiz, final, midterm));
+var cookies = 60;
+var cupcakes = 90;
+var brownies = 100;
+var maximumResult = Math.max((cookies, brownies, cupcakes));
 
-console.log('maximumResult', maximumResult);
+console.log('maximumResult:', maximumResult);
 
 var heroes = ['batman', 'spiderman', 'wonder woman', 'thor'];
-console.log(heroes);
-console.log(heroes.length);
 
-var randomNumber = Math.floor(Math.random(heroes.length));
+var randomNumber = Math.floor(Math.random());
 console.log('random number', randomNumber);
+randomNumber = Math.floor(Math.random() * heroes.length);
 
+console.log(randomNumber);
 var randomIndex = Math.floor(randomNumber);
+console.log('randomIndex', randomIndex);
 var randomHero = heroes[randomIndex];
 console.log('random hero:', randomHero);
 
@@ -29,12 +30,10 @@ var library = [{
   author: 'Fred Jeeps'
 }];
 
-console.log(library.pop());
-var lastBook = {
-  title: 'the Birds',
-  author: 'Fred Jeeps'
-};
-console.log(lastBook);
+var lastBook = library.pop();
+console.log('lastBook:', lastBook);
+var firstBook = library.shift();
+console.log('firstBook:', firstBook);
 
 var js = {
   title: 'JavaScript for Impatient Programmers',
@@ -44,10 +43,7 @@ var css = {
   title: 'CSS Secrets',
   author: 'Lea Verou'
 };
-
 library.push({ js });
-
 library.unshift({ css });
-library.splice(1, 0);
-
+library.splice(1, 1);
 console.log(library);
