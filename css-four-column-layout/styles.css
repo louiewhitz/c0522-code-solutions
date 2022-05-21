@@ -1,4 +1,4 @@
-body {
+/* body {
   box-sizing: border-box;
 }
 
@@ -9,7 +9,7 @@ body {
   position: relative;
 }
 
-.row-top {
+.row {
   display: flex;
   width: 100%
 }
@@ -20,9 +20,27 @@ body {
 
 .top-head {
   text-align: center;
-}
+} */
 
-.row {
+/* .row {
   width: 100%;
   display: flex;
 }
+
+.h-size-3 {
+
+}
+
+.para {
+
+}
+
+.baby-image {
+
+}
+
+.big-image {
+
+}
+
+make a big class under section with all elements inside */
