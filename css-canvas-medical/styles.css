@@ -38,6 +38,10 @@
   justify-items: flex-start;
   margin-bottom: 10px;
   padding-right: 5px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
 
 .btn {
@@ -65,7 +69,7 @@
   background-color: rgb(41 68 100);
   color: white;
   border-radius: 4px;
-  padding: 5px 15px;
+  padding: 18px 25px;
 }
 
 img {
@@ -108,6 +112,10 @@ img {
 .text {
   line-height: 25px;
   font-size: 1.2em;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
 
 .row-mid {
@@ -148,10 +156,18 @@ img {
   justify-content: center;
   color: rgb(110 110 110);
   font-size: larger;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
 
 .small-font {
   color: rgb(110 110 110);
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
 
 .row-ready {
@@ -168,20 +184,25 @@ img {
   width: 50%;
   justify-items: right;
   margin-left: 100px;
+  margin-top: 30px;
 }
 
 .start {
   position: relative;
   margin-top: 20px;
-  margin-left: 250px;
+  margin-left: 150px;
 }
 
 .ready-para {
   color: rgb(110 110 110);
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
 
 .ready-header {
-  font-weight: 200;
+  font-weight: 100;
   color: rgb(110 110 110);
 }
 
@@ -197,9 +218,10 @@ img {
 .column-bottom-one {
   flex-basis: 50%;
   margin-top: auto;
-  padding-left: 40px;
+  padding-left: 100px;
   line-height: 30px;
   padding-bottom: 50px;
+  padding-top: 30px;
 }
 
 #logo {
@@ -210,6 +232,11 @@ img {
   color: white;
   line-height: 25px;
   padding-left: 10px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+  padding-top: 15px;
 }
 
 .column-quarter {
@@ -222,6 +249,10 @@ img {
 
 .font-bottom {
   color: white;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
 
 .row-footer {
@@ -231,4 +262,10 @@ img {
 
 .column-footer {
   width: 100%;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  font-family: Avenir, sans-serif;
+  font-style: smaller;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
