@@ -8,50 +8,110 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  width: 1000px;
-  margin: auto;
-}
-
-.row {
-  flex-basis: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.text-align-center {
-  text-align: center;
-}
-
-.column-full {
-  flex-basis: 100%;
-  flex-direction: column;
-}
-
-/* new flex directioon column */
-
-.padding-left-and-right {
-  padding: 70px;
+p {
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: rgb(143 143 143);
+  font-weight: 400;
 }
 
 h1 {
   text-transform: uppercase;
   font-size: 4.5em;
-  font-weight: lighter;
+  font-weight: 600;
+  margin: 30px;
+}
+
+h3 {
+  word-wrap: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .paraheader {
-  line-height: 150%;
-  letter-spacing: 1px;
+  line-height: 200%;
   color: rgb(143 143 143);
+  letter-spacing: 1px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1000px;
+  width: 95%;
+  margin: auto;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 1px solid rgb(210 76 69);
+  padding: 8px 40px;
+  color: rgb(210 76 69);
+  text-transform: uppercase;
+  font-weight: 100;
+  background-color: white;
+}
+
+.info-card-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 20px 2%;
+  padding: 0 0 20px;
+}
+
+.info-card {
+  flex-basis: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-card-image-container {
+  flex-basis: 30%;
+}
+
+.info-card-text {
+  flex-basis: 70%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.outline {
+  border: 1px solid black;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .col-five {
   flex-basis: 50%;
-}
-
-.section {
-  width: 100%;
 }
 
 .col-one {
@@ -62,25 +122,8 @@ h1 {
   flex-basis: 70%;
 }
 
-p {
-  line-height: 150%;
-  letter-spacing: 1px;
-  color: rgb(143 143 143);
+.gap-1 {
+  gap: 10px;
 }
 
-h3 {
-  word-wrap: normal;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.button {
-  position: relative;
-  margin-left: 27em;
-  border-color: rgb(210 76 69);
-  padding: 8px 40px;
-  color: rgb(210 76 69);
-  text-transform: uppercase;
-  font-weight: 100;
-  background-color: white;
-}
+.py-7 { padding: 70px 0; }
