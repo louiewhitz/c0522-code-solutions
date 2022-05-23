@@ -45,12 +45,8 @@ var orderHistory = [{
     edition: 'Nintendo Switch',
     totalCost: 94.95,
     orderNumber: 113 - 2883177 - 264826
-  }]
-},
-
-{
-  deliveryDate: 'July 5th',
-  items: [{
+  },
+  {
     name: 'The Art of Sql',
     type: 'book',
     author: 'Stephane Faroult',
