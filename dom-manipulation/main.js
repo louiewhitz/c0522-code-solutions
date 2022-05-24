@@ -19,6 +19,6 @@ function btnClick(event) {
   } else {
     temp = 'nuclear';
   }
-  $hot.className = 'hot-button' + temp;
+  $hot.className = 'hot-button ' + temp;
   $clickCount.textContent = 'Clicks:' + clicks;
 }
