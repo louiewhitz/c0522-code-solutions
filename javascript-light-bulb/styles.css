@@ -1,0 +1,79 @@
+/* need to create light-bulb.off
+light-bulb.on
+box shadow with border
+border radius for button
+ */
+
+/* class for off - background & button
+ class for on - background and button
+ in function either light bulb off or on
+  */
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.light-bulb {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  margin-top: 200px;
+  background-color: rgb(254 249 241);
+  color: rgb(250 235 132);
+  position: relative;
+}
+
+.light-bulb:focus {
+  outline: auto;
+}
+
+.light-bulb:active {
+  top: 3px;
+}
+
+.light-bulb.off {
+  background-color: rgb(80 77 77);
+  border-radius: 200px;
+  box-shadow: 0 0 0 20px rgb(80 77 77 / 25%);
+}
+
+.body.on {
+  background-color: rgb(243 230 169);
+}
+
+body.off {
+  background-color: rgb(37 37 37);
+}
+
+.light-bulb.on {
+  background-color: rgb(250 235 132);
+  border-radius: 200px;
+  box-shadow: 0 0 0 20px rgb(250 235 132 / 25%);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
