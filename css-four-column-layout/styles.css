@@ -7,12 +7,14 @@ html {
 /* base styles */
 body {
   font-family: Barlow, sans-serif;
+  font-weight: bolder;
+  background-color: rgb(247, 248, 250);
 }
 
 .header {
-  font-size: 7.4rem;
-  font-weight: bold;
-  box-shadow: 6px 7px 13px 10px black;
+  font-family: Barlow, sans-serif;
+  font-size: 6.5rem;
+  font-weight: 600;
   margin-bottom: 12rem;
 }
 
@@ -71,7 +73,7 @@ img {
 }
 
 .info-text-box > h3 {
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 3rem;
 }
 
