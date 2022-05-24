@@ -21,6 +21,4 @@ function btnClick(event) {
   }
   $hot.className = 'hot-button' + temp;
   $clickCount.textContent = 'Clicks:' + clicks;
-
-  // $hot is target of event.target.className = 'hot-button ' + temp;
 }
