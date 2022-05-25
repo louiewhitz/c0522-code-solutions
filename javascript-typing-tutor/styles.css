@@ -1,0 +1,28 @@
+/* body {
+  width: 1000px;
+  margin: auto;
+  font-family: 'Source Code Pro', monospace;
+} */
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.type-box-info {
+  width: 70%;
+  height: 40%;
+  align-content: center;
+  margin-top: 200px;
+  white-space: pre;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*
+.phrase.type-box-info {
+  transtion: none background-color 0.5s;
+} */
