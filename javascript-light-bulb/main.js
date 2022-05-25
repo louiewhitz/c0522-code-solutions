@@ -15,5 +15,3 @@ function change(event) {
     clicks = true;
   }
 }
-// light.className.onlcick = 'light-bulb';
-// light.text =  + clicks;
