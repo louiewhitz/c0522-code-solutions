@@ -16,10 +16,19 @@
   align-content: center;
   margin-top: 200px;
   white-space: pre;
+  transition: color 0.5;
 }
 
 h1 {
   text-align: center;
+}
+
+span.incorrect {
+  color: red;
+}
+
+span.correct {
+  color: darkcyan;
 }
 
 /*
