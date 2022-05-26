@@ -83,7 +83,7 @@ function renderPokemon(pokemon) {
   $pokeClass.appendChild($pokeCard);
   $pokeCard.appendChild($name);
   $pokeCard.appendChild($number);
-  $pokeCard.appendChild($description); // ADD THESE AT THE END
+  $pokeCard.appendChild($description);
 
   return divElDiv;
 }
