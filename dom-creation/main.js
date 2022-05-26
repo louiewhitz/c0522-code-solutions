@@ -58,35 +58,40 @@ var pokedex = [
 ];
 function renderPokemon(pokemon) {
   var divElDiv = document.createElement('div');
+  divElDiv.setAttribute('class', 'column-third');
 
-  divElDiv.setAttribute('class', 'colum-third');
+  var $pokeClass = document.createElement('div');
+  $pokeClass.setAttribute('class', 'pokemon-card');
 
-  var pokeClass = document.createElement('div');
+  var $imageUrl = document.createElement('img');
+  $imageUrl.setAttribute('src', pokemon.imageUrl);
 
-  pokeClass.setAttribute('class', 'pokemon-card');
+  var $pokeCard = document.createElement('div');
+  $pokeCard.setAttribute('class', 'pokemon-card-text');
 
-  pokeClass = divElDiv.appendChild(pokeClass);
+  var $name = document.createElement('h2');
+  $name.textContent = pokemon.name;
 
-  var imageUrl = document.createElement('img');
-  imageUrl.setAttribute('src', pokemon.imageUrl);
+  var $number = document.createElement('h3');
+  $number.textContent = '#' + pokemon.number;
 
-  imageUrl = pokeClass.appendChild(imageUrl);
-  var description = document.createElement('div');
-  description.setAttribute('class', 'pokemon-card-text');
+  var $description = document.createElement('p');
+  $description.textContent = pokemon.description;
 
-  description = pokeClass.appendChild(description);
+  divElDiv.appendChild($pokeClass);
+  $pokeClass.appendChild($imageUrl);
+  $pokeClass.appendChild($pokeCard);
+  $pokeCard.appendChild($name);
+  $pokeCard.appendChild($number);
+  $pokeCard.appendChild($description); // ADD THESE AT THE END
 
-  var name = document.createElement('h2');
-  name.setAttribute('name', 'Baltusar');
-  name = description.appendChild(name);
   return divElDiv;
 }
 
-window.addEventListener('load', function () {
-  for (var i = 0; i < pokedex.length; i++) {
-    var divElDiv = renderPokemon(pokedex[i]);
-    var row = document.querySelector('.row');
-    row.appendChild(divElDiv);
-  }
+var $row = document.querySelector('.row');
 
-});
+for (var i = 0; i < pokedex.length; i++) {
+  var $pokemon = renderPokemon(pokedex[i]);
+
+  $row.appendChild($pokemon);
+}
