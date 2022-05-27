@@ -15,7 +15,7 @@
 //     }
 //       var $viewName = event.target.getAttribute('data-view');
 //       for (var i = 0; i < $viewNodeList.length; i++) {
-//         if ($viewNodeList[i].getAttribute('data-view') !== $viewName) {
+//         if ($viewNodeList[i].getAttribute('data-view') !== $viewName) {git
 //         $viewNodeList[i].className = 'view hidden';
 //     } else {
 //         $viewNodeList[i].className = 'view';
