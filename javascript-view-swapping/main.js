@@ -1,6 +1,5 @@
 // var $tabContainer = document.querySelector('.tab-container');
 // var $tabNodelist = document.querySelectorAll('.tab');
-// var $tab = document.querySelector('.tab');
 // var $viewNodeList = document.querySelectorAll('.view');
 
 // function checkClick(event) {
