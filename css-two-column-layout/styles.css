@@ -55,6 +55,12 @@ h3 {
   background-color: white;
 }
 
+.row {
+  flex-basis: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .info-card-grid {
   display: flex;
   flex-flow: row wrap;
@@ -63,17 +69,11 @@ h3 {
   padding: 0 0 20px;
 }
 
-.info-card {
-  flex-basis: 48%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.info-card-image-container {
+.info-card-image-column {
   flex-basis: 30%;
 }
 
-.info-card-text {
+.info-card-text-column {
   flex-basis: 70%;
 }
 
@@ -93,10 +93,10 @@ h3 {
   align-items: center;
 }
 
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .text-center {
   text-align: center;
