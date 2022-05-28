@@ -1,13 +1,20 @@
-var $form = document.querySelector('#contact-form');
+/* eslint-disable object-shorthand */
+var $contactForm = document.querySelector('#contact-form');
+// var names = document.forms[0].name;
+// var email = document.forms[0].email;
+// var message = document.forms[0].message;
 
 function submit(event) {
-
-  console.log('Form Submitted!');
-
+  event.preventDefault();
+  var name = $contactForm.elements.name.value;
+  var email = $contactForm.elements.email.value;
+  var message = $contactForm.elements.message.value;
+  var messageData = {
+    name: name,
+    email: email,
+    message: message
+  };
+  console.log('message data', messageData);
+  $contactForm.reset();
 }
-$form.addEventListener('submit', submit);
-
-// var $actions = document.querySelector('.form-actions')
-// var $nameValue = $form[0].input.name.textContent;
-// var $emailValue = $form[0].input.email.textContent;
-// var textValue = $form[0].textarea.message.textContent;
+$contactForm.addEventListener('submit', submit);
