@@ -6,9 +6,10 @@
             getKeys,
             getValues
  */
-var numbers = [];
-var currentNumbers = 1;
+
 function getNumbersToTen() {
+  var numbers = [];
+  var currentNumbers = 1;
   while (currentNumbers <= 11) {
     numbers.push(currentNumbers);
     currentNumbers++;
@@ -16,9 +17,10 @@ function getNumbersToTen() {
   return numbers;
 }
 console.log(getNumbersToTen());
-var evenNumbers = [];
-var currentNumber = 2;
+
 function getNumbersToTwenty() {
+  var evenNumbers = [];
+  var currentNumber = 2;
   while (currentNumber <= 20) {
     evenNumbers.push(currentNumber);
     currentNumber += 2;
