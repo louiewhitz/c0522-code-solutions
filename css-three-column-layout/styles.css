@@ -55,6 +55,7 @@ section {
 .opaque {
   color: rgb(255 255 255 / 75%);
   font-size: smaller;
+  margin-top: 0;
 }
 
 h2 {
