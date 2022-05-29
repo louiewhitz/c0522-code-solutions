@@ -1,17 +1,17 @@
 /* exported includes */
 function includes(array, value) {
-  var bools = {
-    key: true,
-    key2: false
-  };
   for (var i = 0; i < array.length; i++) {
-    var input = array[i];
-    if (bools[input] === false) {
+    if (value === array[i]) {
       return true;
     }
   }
   return false;
 }
+
+// var bools = {
+//   key: true,
+//   key2: false
+// };
 
 //     if (input !== true) {
 //       return false;
