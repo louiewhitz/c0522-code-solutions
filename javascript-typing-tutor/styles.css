@@ -25,10 +25,15 @@ h1 {
 
 span.incorrect {
   color: red;
+  border-bottom: solid 1px red;
 }
 
 span.correct {
   color: darkcyan;
+}
+
+span.active {
+  border-bottom: solid 1px black;
 }
 
 /*

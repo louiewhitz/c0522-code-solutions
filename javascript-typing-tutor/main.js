@@ -31,9 +31,13 @@ function logKey(e) {
     var expectedChar = text.charAt(cursor);
     if (pressedKey === expectedChar) {
       cursorSpan.className = 'correct';
+      cursor++;
+      if (allSpan[cursor] < allSpan.length) {
+        allSpan[cursor].className = 'active';
+      }
     } else {
       cursorSpan.className = 'incorrect';
-    } cursor++;
+    }
   }
 }
 
