@@ -34,3 +34,7 @@ function compact(input) {
   }
   return newArr;
 }
+
+// I actually do not think how I did this is correct. However, the method I used basically checked if every single item that shouldnt be in the string, we just disregard it and continue.
+// as you can see my other code, there is something wrong with it that wont let me single out NaN
+// I will return to you later compact!!!

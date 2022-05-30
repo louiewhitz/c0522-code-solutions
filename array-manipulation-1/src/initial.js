@@ -7,3 +7,9 @@ function initial(array) {
   }
   return newArray;
 }
+
+// We need to return a new array that contains everything but the last item
+// we also have an edge case, if the input is an empty array we must return an empty array which is what it is
+// loop through the array keeping in mind the length of the updated array (which instead of -1 is actually -2)
+// put the new items into an array
+// return that array
