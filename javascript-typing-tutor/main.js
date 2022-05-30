@@ -29,11 +29,12 @@ function logKey(e) {
     var allSpan = document.querySelectorAll('#input span');
     var cursorSpan = allSpan[cursor];
     var expectedChar = text.charAt(cursor);
+    var nextChar = allSpan[cursor + 1];
     if (pressedKey === expectedChar) {
       cursorSpan.className = 'correct';
       cursor++;
-      if (allSpan[cursor] < allSpan.length) {
-        allSpan[cursor].className = 'active';
+      if (nextChar !== true) {
+        nextChar.className = 'active';
       }
     } else {
       cursorSpan.className = 'incorrect';
