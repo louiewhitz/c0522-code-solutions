@@ -16,3 +16,7 @@ function omit(source, keys) {
   return newObj;
 
 }
+// agenda: this time we must omit the keys
+// 1, create an empty object
+// store the value of source keys in a variable
+// loop through the source
