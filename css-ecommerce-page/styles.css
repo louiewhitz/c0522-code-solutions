@@ -1,14 +1,17 @@
+body,
+html {
+  width: 100%;
+}
+
 body {
   font-family: Barlow, sans-serif;
-  font-weight: bolder;
+  font-weight: normal;
   background-color: rgb(247 248 250);
 }
 
 .header {
   font-family: Barlow, sans-serif;
-  font-size: 6.5rem;
-  font-weight: 600;
-  margin-bottom: 4rem;
+  font-weight: 400;
 }
 
 .center {
@@ -20,16 +23,26 @@ img {
   align-self: center;
 }
 
-/* component */
+.image-list {
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
 
 .container {
-  /* max-width: 1000px; */
-
   margin: 0 auto;
+}
+
+.img-container {
+  height: 430px;
 }
 
 .w-full {
   width: 100%;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-full-clamped {
@@ -48,15 +61,8 @@ img {
 
 .info-content-grid {
   border-color: 1px solid brown;
-  font-size: 2rem;
-  display: flex;        /* these used to be under info img box */
-  align-items: center;
+  display: flex;
   flex-basis: 20%;
-  height: 400px;
-}
-
-p {
-  font-weight: 300;
 }
 
 .txt-img-box {
@@ -64,12 +70,7 @@ p {
 }
 
 .info-img-box {
-  object-fit: contain;
-}
-
-.info-text-box > h3 {
-  font-weight: 600;
-  font-size: 3rem;
+  object-fit: cover;
 }
 
 .text-center {
@@ -86,4 +87,13 @@ p {
 
 .border {
   border: 1px solid black;
+}
+
+.color-muted,
+del {
+  color: rgb(203 198 198);
+}
+
+.num {
+  background-color: rgb(247 228 213);
 }
