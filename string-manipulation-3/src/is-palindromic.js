@@ -1,14 +1,16 @@
 // /* exported isPalindromic */
-// function isPalindromic(string) {
-//   var allStr = string.replace(' ', '');
-//   var halfString = allStr.length;
-//   for (var i = 0; i < allStr.length / 2; i++) {
-//     if (allStr[i] !== allStr[halfString - 1 - i]) {
-//       return false;
-//     }
-//   }
-//   return true;
-// }
+// eslint-disable-next-line no-unused-vars
+function isPalindromic(string) {
+  var allStr = string.replace(' ', '');
+  var halfString = allStr.length;
+  for (var i = 0; i < allStr.length / 2; i++) {
+    if (allStr[i] !== allStr[halfString - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
+}
+
 //   var half = string.length;
 //   for (var i = 0; i < string.length / 2; i++); {
 //     var half = string[i];
