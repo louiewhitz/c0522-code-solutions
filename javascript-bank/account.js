@@ -41,9 +41,4 @@ Account.prototype.getBalance = function () {
   }
   return total;
 };
-
-//   for (var i = 0; i < amount.length; i++) {
-//     total += amount[i];
-//   }
-//   return total;
-// };
+// bank
