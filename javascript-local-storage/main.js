@@ -33,22 +33,6 @@ for (var i = 0; i < todos.length; i++) {
 
 function renderTodo(todo) {
 
-  /**
-   * <li class="list-group-item">
-   *   <div class="form-check d-flex">
-   *     <input
-   *       type="checkbox"
-   *       id="{todo.todoId}"
-   *       class="form-check-input">
-   *     <label
-   *       for="{todo.todoId}"
-   *       class="form-check-label flex-grow-1 ml-2">
-   *       {todo.task}
-   *     </label>
-   *   </div>
-   * </li>
-   */
-
   var $todo = document.createElement('li');
   $todo.setAttribute('class', 'list-group-item');
 
