@@ -58,8 +58,9 @@ function doubleAll(numbers) {
   return doubled;
 }
 console.log(doubleAll([2, 5, 7, 8]));
-var keys = [];
+
 function getKeys(object) {
+  var keys = [];
   for (var key in object) {
     keys.push(key);
   }
