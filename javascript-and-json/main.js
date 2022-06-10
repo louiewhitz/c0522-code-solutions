@@ -18,7 +18,7 @@ var array = [
 console.log('type of', typeof array, array);
 console.log('Stringify type of:', typeof JSON.stringify(array), JSON.stringify(array));
 console.log('Name and Number ID', typeof JSON.stringify({ name: 'Jason', id: 456 }), JSON.stringify({ name: 'Jason', id: 456 }));
-var newObj = '({"name":"Jason", "id":"456"})';
+var newObj = '{ "name":"Jason", "id":"456" }';
 console.log('type of:', newObj, typeof newObj);
 
 // console.log('object parsed:', JSON.parse(json));
