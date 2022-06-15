@@ -3,270 +3,88 @@
 }
 
 .container {
-  width: 90vw;
-  position: relative;
+  max-width: 1000px;
   margin: auto;
-}
-
-.nav {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: space-between;
-  margin-top: 10px;
-  border-bottom-style: groove;
-  border-bottom-color: rgb(0 0 0 / 5%);
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  margin-left: 10px;
-  margin-bottom: 1px;
-  background: linear-gradient(transparent, rgb(0 0 0 / 50%));
-  position: absolute;
-  object-fit: contain;
-}
-
-.column-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  justify-items: flex-start;
-  margin-bottom: 10px;
-  padding-right: 5px;
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
-}
-
-.btn {
-  padding: auto;
-  margin-top: 50px;
-  background: none;
-  border: none;
-  color: rgb(110 110 110);
-  text-align: end;
-  font-size: larger;
-  margin-bottom: 20px;
-}
-
-.logo {
-  width: 30%;
-  padding-top: 10px;
 }
 
 .row {
   width: 100%;
-  position: relative;
   display: flex;
+  flex-direction: row;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.justify-align {
+  display: flex;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+/* nav bar and logo */
+
+#logo {
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.nav-button {
+  text-align: end;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgb(0 0 0 / 10%);
+  border-bottom: 1px solid rgb(255 255 255 / 30%);
+  margin-top: 5px;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: rgb(110 110 110);
+  padding: 13px;
 }
 
 #blue {
   background-color: rgb(41 68 100);
   color: white;
   border-radius: 4px;
-  padding: 18px 25px;
+}
+
+/* image  */
+.background {
+  position: relative;
+  background-image: url("./images/hero.jpg");
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  height: 520px;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.img-box {
+  width: 800px;
+  height: 600px;
+  position: relative;
 }
 
 img {
   width: 100%;
-  height: 100%;
-  background-image: #817f6d;
-  margin-left: 10px;
+  margin: auto;
+  text-align: left;
 }
 
 .img-text {
-  position: absolute;
-  width: 40%;
-  margin-top: 8%;
-  margin-left: 8%;
-  color: white;
-  height: auto;
-  left: 0;
-  top: 0;
-  object-fit: cover;
-}
-
-.start-button {
-  background-color: rgb(41 68 100);
-  color: white;
-  border-radius: 5px;
-  padding: 20px 50px;
-  font-size: large;
-}
-
-#gradient {
-  position: absolute;
-  background: linear-gradient(#817f6d));
-}
-
-.img-head {
-  font-weight: lighter;
-  font-size: 3em;
-}
-
-.text {
-  line-height: 25px;
-  font-size: 1.2em;
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
-}
-
-.mid {
-  text-align: center;
-  height: 5%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  background-color: rgb(250 250 250);
-}
-
-.column-mid {
-  width: 40%;
-  color: rgb(110 110 110);
-  line-height: 20px;
-}
-
-.mid-header {
-  font-weight: 200;
-  color: rgb(110 110 110);
-  padding-top: 20px;
-}
-
-.address-box {
-  display: flex;
-  flex-direction: row;
-  height: 20%;
-  background-color: rgb(250 250 250);
-  width: 100%;
-  position: relative;
-}
-
-.column-addresses {
-  width: 50%;
-  height: 200px;
-  text-align: center;
-  justify-content: center;
-  color: rgb(110 110 110);
-  font-size: larger;
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
-}
-
-.small-font {
-  color: rgb(110 110 110);
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
-}
-
-.ready {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-evenly;
-  height: 30%;
-  position: relative;
-  margin-bottom: 50px;
-}
-
-.column-half {
-  width: 50%;
-  justify-items: right;
-  margin-left: 100px;
-  margin-top: 30px;
-}
-
-.start {
-  position: relative;
-  margin-top: 20px;
-  margin-left: 150px;
-}
-
-.ready-para {
-  color: rgb(110 110 110);
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
-}
-
-.ready-header {
-  font-weight: 100;
-  color: rgb(110 110 110);
-}
-
-.black-box {
-  width: 100%;
-  background-color: rgb(82 83 81);
-  display: flex;
-  flex-direction: row;
-  line-height: 30px;
-  padding-bottom: 10%;
-}
-
-.column-bottom-one {
-  flex-basis: 50%;
-  margin-top: auto;
-  padding-left: 100px;
-  line-height: 30px;
-  padding-bottom: 50px;
-  padding-top: 30px;
-}
-
-#logo {
-  width: 25%;
-}
-
-#logo-small {
-  color: white;
-  line-height: 25px;
-  padding-left: 10px;
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
-  padding-top: 15px;
-}
-
-.column-quarter {
-  width: 25%;
-  padding-top: 60px;
-  line-height: 30px;
-  margin-left: 30px;
-  padding-left: 30px;
-}
-
-.font-bottom {
-  color: white;
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
-}
-
-.footer {
-  width: 100%;
-  background-color: rgb(250 250 250);
-}
-
-.column-footer {
-  width: 100%;
-  padding-left: 100px;
-  padding-bottom: 100px;
-  font-family: Avenir, sans-serif;
-  font-style: smaller;
-  font-weight: 500;
-  src: url("avenir.woff2") format("woff2");
+  width: 400px;
 }
