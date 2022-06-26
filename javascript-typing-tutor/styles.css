@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.type-box-info {
+  width: 70%;
+  height: 40%;
+  align-content: center;
+  margin-top: 200px;
+  white-space: pre;
+  transition: color 0.5;
+  font-family: "Patua One", cursive;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+span.incorrect {
+  color: red;
+  border-bottom: solid 3px red;
+}
+
+span.correct {
+  color: #18cd1b;
+}
+
+span.active {
+  border-bottom: solid 3px black;
+}
