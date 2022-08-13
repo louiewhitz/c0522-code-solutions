@@ -1,0 +1,99 @@
+body,
+html {
+  width: 100%;
+}
+
+body {
+  font-family: Barlow, sans-serif;
+  font-weight: normal;
+  background-color: rgb(247 248 250);
+}
+
+.header {
+  font-family: Barlow, sans-serif;
+  font-weight: 400;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  align-self: center;
+}
+
+.image-list {
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.img-container {
+  height: 430px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full-clamped {
+  width: clamp(700px, 100%, 2500px);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.info-content-grid {
+  border-color: 1px solid brown;
+  display: flex;
+  flex-basis: 20%;
+}
+
+.txt-img-box {
+  display: flex;
+}
+
+.info-img-box {
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.py-3 {
+  padding: 0;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.color-muted,
+del {
+  color: rgb(203 198 198);
+}
+
+.num {
+  background-color: rgb(247 228 213);
+}
